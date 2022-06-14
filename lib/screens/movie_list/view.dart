@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                                 height: 330,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(28),
-                                  color: Colors.black.withOpacity(.9),
+                                  color: Colors.grey.withOpacity(.9),
                                 ),
                                 child: Stack(
                                   children: [
@@ -85,7 +85,7 @@ class HomeScreen extends StatelessWidget {
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
                                           Icon(
-                                            Icons.star,
+                                            Icons.star_half_outlined,
                                             color: Colors.yellow,
                                           ),
                                           SizedBox(
@@ -112,7 +112,7 @@ class HomeScreen extends StatelessWidget {
                                             EdgeInsets.only(top: 5, bottom: 10),
                                         child: Text(
                                           movies[index].title,
-                                          style: TextStyle(color: Colors.white),
+                                          style: TextStyle(color: Colors.black),
                                         ),
                                       ),
                                     ),
